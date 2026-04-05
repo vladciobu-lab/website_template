@@ -1,4 +1,13 @@
-:HL["/website_template/_next/static/chunks/10hoyov1.6xz4.css","style"]
-:HL["/website_template/_next/static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/website_template/_next/static/chunks/0hems~2bydh8i.css","style"]
 :HL["/website_template/_next/static/media/caa3a2e1cccd8315-s.p.16t1db8_9y2o~.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"JJEdkM_8TUMsm-w9IY4PG"}
+:HL["/website_template/_next/static/media/e4505858a30c79c2-s.p.14m88r~v.m-cq.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://picsum.photos/seed/vila-exterior/800/1000","image"]
+:HL["https://picsum.photos/seed/room-standard/800/600","image"]
+:HL["https://picsum.photos/seed/room-deluxe/800/600","image"]
+:HL["https://picsum.photos/seed/gallery-1/800/600","image"]
+:HL["https://picsum.photos/seed/gallery-2/800/600","image"]
+:HL["https://picsum.photos/seed/gallery-3/800/600","image"]
+:HL["https://picsum.photos/seed/gallery-4/800/600","image"]
+:HL["https://picsum.photos/seed/gallery-5/800/600","image"]
+:HL["https://picsum.photos/seed/room-suite/800/600","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"-vRe_ELoeMOcKlpwpvaaz"}
