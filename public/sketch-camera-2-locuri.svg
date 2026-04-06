@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#f5f0e8"/>
+
+  <!-- Wall outline -->
+  <rect x="80" y="60" width="640" height="480" fill="none" stroke="#3a2e1e" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Floor lines (perspective) -->
+  <line x1="80" y1="540" x2="400" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="170" y1="540" x2="430" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="260" y1="540" x2="460" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="350" y1="540" x2="490" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="440" y1="540" x2="520" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="530" y1="540" x2="550" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="620" y1="540" x2="580" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="720" y1="540" x2="610" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+
+  <!-- Horizontal floor lines -->
+  <line x1="80" y1="460" x2="720" y2="460" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="80" y1="500" x2="720" y2="500" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+
+  <!-- Window on far wall -->
+  <rect x="290" y="80" width="220" height="130" fill="#ddeef5" stroke="#3a2e1e" stroke-width="2.5"/>
+  <line x1="400" y1="80" x2="400" y2="210" stroke="#3a2e1e" stroke-width="1.5"/>
+  <line x1="290" y1="145" x2="510" y2="145" stroke="#3a2e1e" stroke-width="1.5"/>
+  <!-- Window sill -->
+  <rect x="278" y="208" width="244" height="12" fill="#e8dfc8" stroke="#3a2e1e" stroke-width="2"/>
+  <!-- Curtains -->
+  <path d="M290,80 Q270,145 285,210" fill="#e8d5b5" stroke="#3a2e1e" stroke-width="1.5"/>
+  <path d="M510,80 Q530,145 515,210" fill="#e8d5b5" stroke="#3a2e1e" stroke-width="1.5"/>
+
+  <!-- ===== BATHROOM INTERNAL WALLS ===== -->
+  <!-- Horizontal dividing wall (left segment, solid) -->
+  <line x1="80" y1="388" x2="172" y2="388" stroke="#3a2e1e" stroke-width="3.5"/>
+  <!-- Vertical dividing wall (right side of bathroom) -->
+  <line x1="258" y1="388" x2="258" y2="540" stroke="#3a2e1e" stroke-width="3.5"/>
+
+  <!-- Bathroom door: hinge at (172,388), door leaf shown dashed, opens into bathroom -->
+  <line x1="172" y1="388" x2="258" y2="388" stroke="#3a2e1e" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.4"/>
+  <path d="M258,388 A86,86 0 0,1 172,474" fill="none" stroke="#3a2e1e" stroke-width="2" stroke-dasharray="5,3"/>
+  <!-- Door knob -->
+  <circle cx="253" cy="396" r="3.5" fill="#3a2e1e"/>
+
+  <!-- ===== BATHROOM FIXTURES ===== -->
+  <!-- Sink (mounted on right dividing wall) -->
+  <rect x="166" y="400" width="75" height="46" rx="9" fill="#e8e8e0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <ellipse cx="203" cy="423" rx="18" ry="12" fill="none" stroke="#3a2e1e" stroke-width="1"/>
+  <!-- Drain -->
+  <circle cx="203" cy="423" r="3" fill="none" stroke="#3a2e1e" stroke-width="1"/>
+  <!-- Faucet -->
+  <rect x="199" y="396" width="9" height="7" rx="1" fill="#c4a87a" stroke="#3a2e1e" stroke-width="1"/>
+
+  <!-- Toilet -->
+  <!-- Tank -->
+  <rect x="86" y="465" width="52" height="22" rx="3" fill="#e8e8e0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <!-- Bowl -->
+  <ellipse cx="112" cy="511" rx="26" ry="21" fill="#e8e8e0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <!-- Seat ring -->
+  <ellipse cx="112" cy="511" rx="21" ry="17" fill="none" stroke="#3a2e1e" stroke-width="1" opacity="0.6"/>
+
+  <!-- Bathroom label -->
+  <text x="147" y="555" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#3a2e1e" opacity="0.55" font-style="italic">Baie</text>
+
+  <!-- ===== EXIT DOOR (right wall) ===== -->
+  <path d="M720,350 L720,480" stroke="#3a2e1e" stroke-width="3"/>
+  <path d="M720,480 Q660,480 660,420" fill="none" stroke="#3a2e1e" stroke-width="2" stroke-dasharray="4,3"/>
+  <circle cx="715" cy="415" r="4" fill="#3a2e1e"/>
+
+  <!-- ===== BED ===== -->
+  <!-- Bed frame -->
+  <rect x="250" y="290" width="300" height="235" rx="8" fill="#e8dfc8" stroke="#3a2e1e" stroke-width="3"/>
+  <!-- Bed legs -->
+  <rect x="252" y="515" width="14" height="16" fill="#c4a87a" stroke="#3a2e1e" stroke-width="1.5"/>
+  <rect x="534" y="515" width="14" height="16" fill="#c4a87a" stroke="#3a2e1e" stroke-width="1.5"/>
+  <!-- Headboard -->
+  <rect x="250" y="270" width="300" height="40" rx="6" fill="#c4a87a" stroke="#3a2e1e" stroke-width="2.5"/>
+  <!-- Headboard detail lines -->
+  <line x1="275" y1="275" x2="275" y2="305" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="315" y1="275" x2="315" y2="305" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="355" y1="275" x2="355" y2="305" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="400" y1="275" x2="400" y2="305" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="445" y1="275" x2="445" y2="305" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="485" y1="275" x2="485" y2="305" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="525" y1="275" x2="525" y2="305" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <!-- Duvet / cover -->
+  <rect x="260" y="300" width="280" height="215" rx="6" fill="#f0ebe0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <!-- Duvet fold -->
+  <path d="M260,365 Q400,355 540,365" fill="none" stroke="#3a2e1e" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <!-- Duvet stitching lines -->
+  <line x1="360" y1="365" x2="360" y2="510" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
+  <line x1="440" y1="365" x2="440" y2="510" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
+  <line x1="260" y1="435" x2="540" y2="435" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
+  <!-- Pillows -->
+  <rect x="265" y="300" width="110" height="62" rx="10" fill="#fff9f0" stroke="#3a2e1e" stroke-width="2"/>
+  <rect x="425" y="300" width="110" height="62" rx="10" fill="#fff9f0" stroke="#3a2e1e" stroke-width="2"/>
+  <line x1="320" y1="305" x2="320" y2="357" stroke="#ddd0bb" stroke-width="1"/>
+  <line x1="480" y1="305" x2="480" y2="357" stroke="#ddd0bb" stroke-width="1"/>
+
+  <!-- ===== NIGHTSTAND LEFT (above bathroom) ===== -->
+  <rect x="145" y="295" width="85" height="85" rx="4" fill="#d4c8a8" stroke="#3a2e1e" stroke-width="2"/>
+  <line x1="145" y1="340" x2="230" y2="340" stroke="#3a2e1e" stroke-width="1.5"/>
+  <circle cx="187" cy="320" r="5" fill="none" stroke="#3a2e1e" stroke-width="1.5"/>
+  <circle cx="187" cy="362" r="5" fill="none" stroke="#3a2e1e" stroke-width="1.5"/>
+  <!-- Lamp left -->
+  <line x1="187" y1="295" x2="187" y2="260" stroke="#3a2e1e" stroke-width="2"/>
+  <ellipse cx="187" cy="250" rx="28" ry="12" fill="#f5e8c0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <path d="M159,250 Q187,275 215,250" fill="#f5e8c0" stroke="#3a2e1e" stroke-width="1.5"/>
+
+  <!-- ===== NIGHTSTAND RIGHT ===== -->
+  <rect x="570" y="300" width="85" height="100" rx="4" fill="#d4c8a8" stroke="#3a2e1e" stroke-width="2"/>
+  <line x1="570" y1="350" x2="655" y2="350" stroke="#3a2e1e" stroke-width="1.5"/>
+  <circle cx="612" cy="325" r="5" fill="none" stroke="#3a2e1e" stroke-width="1.5"/>
+  <circle cx="612" cy="373" r="5" fill="none" stroke="#3a2e1e" stroke-width="1.5"/>
+  <!-- Lamp right -->
+  <line x1="612" y1="300" x2="612" y2="265" stroke="#3a2e1e" stroke-width="2"/>
+  <ellipse cx="612" cy="255" rx="28" ry="12" fill="#f5e8c0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <path d="M584,255 Q612,280 640,255" fill="#f5e8c0" stroke="#3a2e1e" stroke-width="1.5"/>
+
+  <!-- Sketch texture strokes (hand-drawn feel) -->
+  <line x1="82" y1="62" x2="84" y2="538" stroke="#3a2e1e" stroke-width="1.5" opacity="0.3"/>
+  <line x1="718" y1="62" x2="716" y2="538" stroke="#3a2e1e" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Label -->
+  <text x="490" y="572" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#3a2e1e" opacity="0.7" font-style="italic">Camera 2 Locuri — 14 m²</text>
+</svg>

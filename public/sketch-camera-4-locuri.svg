@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#f5f0e8"/>
+
+  <!-- Wall outline -->
+  <rect x="80" y="60" width="640" height="480" fill="none" stroke="#3a2e1e" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Floor lines (perspective) -->
+  <line x1="80" y1="540" x2="400" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="170" y1="540" x2="430" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="260" y1="540" x2="460" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="350" y1="540" x2="490" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="440" y1="540" x2="520" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="530" y1="540" x2="550" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="620" y1="540" x2="580" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="720" y1="540" x2="610" y2="400" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="80" y1="460" x2="720" y2="460" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+  <line x1="80" y1="500" x2="720" y2="500" stroke="#c4b89a" stroke-width="1" stroke-dasharray="6,5"/>
+
+  <!-- Window on far wall -->
+  <rect x="290" y="80" width="220" height="120" fill="#ddeef5" stroke="#3a2e1e" stroke-width="2.5"/>
+  <line x1="400" y1="80" x2="400" y2="200" stroke="#3a2e1e" stroke-width="1.5"/>
+  <line x1="290" y1="140" x2="510" y2="140" stroke="#3a2e1e" stroke-width="1.5"/>
+  <rect x="278" y="198" width="244" height="11" fill="#e8dfc8" stroke="#3a2e1e" stroke-width="2"/>
+  <path d="M290,80 Q270,140 285,200" fill="#e8d5b5" stroke="#3a2e1e" stroke-width="1.5"/>
+  <path d="M510,80 Q530,140 515,200" fill="#e8d5b5" stroke="#3a2e1e" stroke-width="1.5"/>
+
+  <!-- Door (right wall) -->
+  <path d="M720,370 L720,480" stroke="#3a2e1e" stroke-width="3"/>
+  <path d="M720,480 Q665,480 665,425" fill="none" stroke="#3a2e1e" stroke-width="2" stroke-dasharray="4,3"/>
+  <circle cx="715" cy="428" r="4" fill="#3a2e1e"/>
+
+  <!-- ======= BED LEFT (x: 95–330) ======= -->
+  <!-- Bed frame -->
+  <rect x="95" y="285" width="235" height="245" rx="8" fill="#e8dfc8" stroke="#3a2e1e" stroke-width="3"/>
+  <!-- Bed legs -->
+  <rect x="97" y="520" width="13" height="15" fill="#c4a87a" stroke="#3a2e1e" stroke-width="1.5"/>
+  <rect x="315" y="520" width="13" height="15" fill="#c4a87a" stroke="#3a2e1e" stroke-width="1.5"/>
+  <!-- Headboard -->
+  <rect x="95" y="265" width="235" height="38" rx="6" fill="#c4a87a" stroke="#3a2e1e" stroke-width="2.5"/>
+  <line x1="120" y1="270" x2="120" y2="298" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="155" y1="270" x2="155" y2="298" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="190" y1="270" x2="190" y2="298" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="212" y1="270" x2="212" y2="298" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="247" y1="270" x2="247" y2="298" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="282" y1="270" x2="282" y2="298" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="307" y1="270" x2="307" y2="298" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <!-- Duvet -->
+  <rect x="103" y="295" width="219" height="225" rx="6" fill="#f0ebe0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <path d="M103,362 Q212,352 322,362" fill="none" stroke="#3a2e1e" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="175" y1="362" x2="175" y2="515" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
+  <line x1="250" y1="362" x2="250" y2="515" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
+  <line x1="103" y1="438" x2="322" y2="438" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
+  <!-- Pillows -->
+  <rect x="108" y="295" width="90" height="62" rx="9" fill="#fff9f0" stroke="#3a2e1e" stroke-width="2"/>
+  <rect x="224" y="295" width="90" height="62" rx="9" fill="#fff9f0" stroke="#3a2e1e" stroke-width="2"/>
+  <line x1="153" y1="300" x2="153" y2="352" stroke="#ddd0bb" stroke-width="1"/>
+  <line x1="269" y1="300" x2="269" y2="352" stroke="#ddd0bb" stroke-width="1"/>
+
+  <!-- Nightstand between beds -->
+  <rect x="348" y="310" width="70" height="85" rx="4" fill="#d4c8a8" stroke="#3a2e1e" stroke-width="2"/>
+  <line x1="348" y1="352" x2="418" y2="352" stroke="#3a2e1e" stroke-width="1.5"/>
+  <circle cx="383" cy="331" r="5" fill="none" stroke="#3a2e1e" stroke-width="1.5"/>
+  <circle cx="383" cy="368" r="5" fill="none" stroke="#3a2e1e" stroke-width="1.5"/>
+  <!-- Lamp center -->
+  <line x1="383" y1="310" x2="383" y2="278" stroke="#3a2e1e" stroke-width="2"/>
+  <ellipse cx="383" cy="268" rx="25" ry="11" fill="#f5e8c0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <path d="M358,268 Q383,290 408,268" fill="#f5e8c0" stroke="#3a2e1e" stroke-width="1.5"/>
+
+  <!-- ======= BED RIGHT (x: 435–670) ======= -->
+  <!-- Bed frame -->
+  <rect x="435" y="285" width="235" height="245" rx="8" fill="#e8dfc8" stroke="#3a2e1e" stroke-width="3"/>
+  <!-- Bed legs -->
+  <rect x="437" y="520" width="13" height="15" fill="#c4a87a" stroke="#3a2e1e" stroke-width="1.5"/>
+  <rect x="655" y="520" width="13" height="15" fill="#c4a87a" stroke="#3a2e1e" stroke-width="1.5"/>
+  <!-- Headboard -->
+  <rect x="435" y="265" width="235" height="38" rx="6" fill="#c4a87a" stroke="#3a2e1e" stroke-width="2.5"/>
+  <line x1="460" y1="270" x2="460" y2="298" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="495" y1="270" x2="495" y2="298" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="530" y1="270" x2="530" y2="298" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="552" y1="270" x2="552" y2="298" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="587" y1="270" x2="587" y2="298" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="622" y1="270" x2="622" y2="298" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="647" y1="270" x2="647" y2="298" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <!-- Duvet -->
+  <rect x="443" y="295" width="219" height="225" rx="6" fill="#f0ebe0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <path d="M443,362 Q552,352 662,362" fill="none" stroke="#3a2e1e" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="515" y1="362" x2="515" y2="515" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
+  <line x1="590" y1="362" x2="590" y2="515" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
+  <line x1="443" y1="438" x2="662" y2="438" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
+  <!-- Pillows -->
+  <rect x="448" y="295" width="90" height="62" rx="9" fill="#fff9f0" stroke="#3a2e1e" stroke-width="2"/>
+  <rect x="564" y="295" width="90" height="62" rx="9" fill="#fff9f0" stroke="#3a2e1e" stroke-width="2"/>
+  <line x1="493" y1="300" x2="493" y2="352" stroke="#ddd0bb" stroke-width="1"/>
+  <line x1="609" y1="300" x2="609" y2="352" stroke="#ddd0bb" stroke-width="1"/>
+
+  <!-- Sketch texture strokes -->
+  <line x1="82" y1="62" x2="84" y2="538" stroke="#3a2e1e" stroke-width="1.5" opacity="0.3"/>
+  <line x1="718" y1="62" x2="716" y2="538" stroke="#3a2e1e" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Label -->
+  <text x="400" y="572" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#3a2e1e" opacity="0.7" font-style="italic">Camera 4 Locuri — 20 m²</text>
+</svg>
