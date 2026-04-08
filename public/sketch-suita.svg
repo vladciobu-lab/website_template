@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
-  <rect width="800" height="600" fill="#f5f0e8"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-70 -42 1140 684" width="1140" height="684">
+  <rect width="1000" height="600" fill="#f5f0e8"/>
 
-  <!-- ===== ROOM LEFT (x: 60–390) ===== -->
-  <!-- Walls -->
+  <!-- ===== ROOM LEFT / CAMERA 1 (x: 60–390) ===== -->
   <rect x="60" y="60" width="330" height="460" fill="none" stroke="#3a2e1e" stroke-width="4"/>
 
   <!-- Floor texture left -->
@@ -13,19 +12,13 @@
   <line x1="60" y1="360" x2="390" y2="360" stroke="#c4b89a" stroke-width="1" stroke-dasharray="5,6"/>
   <line x1="60" y1="420" x2="390" y2="420" stroke="#c4b89a" stroke-width="1" stroke-dasharray="5,6"/>
 
-  <!-- Door left room — bottom wall, left side -->
-  <!-- door gap in wall -->
+  <!-- Door left room — bottom wall -->
   <rect x="60" y="455" width="4" height="65" fill="#f5f0e8"/>
   <line x1="60" y1="60" x2="60" y2="455" stroke="#3a2e1e" stroke-width="4"/>
-  <line x1="60" y1="520" x2="60" y2="520" stroke="#3a2e1e" stroke-width="4"/>
-  <!-- bottom wall left of door -->
   <line x1="60" y1="520" x2="150" y2="520" stroke="#3a2e1e" stroke-width="4"/>
-  <!-- bottom wall right of door -->
   <line x1="230" y1="520" x2="390" y2="520" stroke="#3a2e1e" stroke-width="4"/>
-  <!-- door arc -->
   <path d="M150,520 Q150,440 230,440" fill="none" stroke="#3a2e1e" stroke-width="1.5" stroke-dasharray="4,3"/>
   <line x1="150" y1="520" x2="150" y2="440" stroke="#3a2e1e" stroke-width="2"/>
-  <!-- door knob -->
   <circle cx="225" cy="448" r="4" fill="#3a2e1e"/>
 
   <!-- Window left room — top wall -->
@@ -34,7 +27,6 @@
 
   <!-- Bed left room -->
   <rect x="95" y="110" width="200" height="280" rx="6" fill="#e8dfc8" stroke="#3a2e1e" stroke-width="2.5"/>
-  <!-- Headboard -->
   <rect x="95" y="100" width="200" height="32" rx="5" fill="#c4a87a" stroke="#3a2e1e" stroke-width="2"/>
   <line x1="120" y1="105" x2="120" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
   <line x1="152" y1="105" x2="152" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
@@ -42,13 +34,11 @@
   <line x1="210" y1="105" x2="210" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
   <line x1="242" y1="105" x2="242" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
   <line x1="270" y1="105" x2="270" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
-  <!-- Duvet -->
   <rect x="103" y="118" width="184" height="265" rx="5" fill="#f0ebe0" stroke="#3a2e1e" stroke-width="1.5"/>
   <path d="M103,185 Q195,176 287,185" fill="none" stroke="#3a2e1e" stroke-width="1.5" stroke-dasharray="4,3"/>
   <line x1="165" y1="185" x2="165" y2="378" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
   <line x1="227" y1="185" x2="227" y2="378" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
   <line x1="103" y1="280" x2="287" y2="280" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
-  <!-- Pillows -->
   <rect x="108" y="118" width="78" height="60" rx="8" fill="#fff9f0" stroke="#3a2e1e" stroke-width="1.5"/>
   <rect x="201" y="118" width="78" height="60" rx="8" fill="#fff9f0" stroke="#3a2e1e" stroke-width="1.5"/>
   <line x1="147" y1="122" x2="147" y2="173" stroke="#ddd0bb" stroke-width="1"/>
@@ -59,7 +49,6 @@
   <line x1="316" y1="167" x2="374" y2="167" stroke="#3a2e1e" stroke-width="1.5"/>
   <circle cx="345" cy="149" r="4" fill="none" stroke="#3a2e1e" stroke-width="1.5"/>
   <circle cx="345" cy="184" r="4" fill="none" stroke="#3a2e1e" stroke-width="1.5"/>
-  <!-- Lamp -->
   <line x1="345" y1="130" x2="345" y2="104" stroke="#3a2e1e" stroke-width="1.5"/>
   <ellipse cx="345" cy="96" rx="22" ry="9" fill="#f5e8c0" stroke="#3a2e1e" stroke-width="1.5"/>
   <path d="M323,96 Q345,114 367,96" fill="#f5e8c0" stroke="#3a2e1e" stroke-width="1.5"/>
@@ -69,83 +58,100 @@
 
   <!-- ===== SHARED WALL (x: 390–410) ===== -->
   <rect x="390" y="60" width="20" height="460" fill="#d4c4a0" stroke="#3a2e1e" stroke-width="2"/>
-  <!-- Communicating door gap in shared wall -->
-  <rect x="390" y="255" width="20" height="90" fill="#f5f0e8"/>
-  <!-- Door frame lines -->
-  <line x1="390" y1="60" x2="390" y2="255" stroke="#3a2e1e" stroke-width="2"/>
-  <line x1="390" y1="345" x2="390" y2="520" stroke="#3a2e1e" stroke-width="2"/>
-  <line x1="410" y1="60" x2="410" y2="255" stroke="#3a2e1e" stroke-width="2"/>
-  <line x1="410" y1="345" x2="410" y2="520" stroke="#3a2e1e" stroke-width="2"/>
-  <!-- Communicating door arc (opens left) -->
-  <path d="M390,255 Q330,255 330,345" fill="none" stroke="#3a2e1e" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <line x1="390" y1="255" x2="330" y2="255" stroke="#3a2e1e" stroke-width="2"/>
-  <!-- Communicating door arc (opens right) -->
-  <path d="M410,255 Q470,255 470,345" fill="none" stroke="#3a2e1e" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <line x1="410" y1="255" x2="470" y2="255" stroke="#3a2e1e" stroke-width="2"/>
-  <!-- Knobs -->
-  <circle cx="336" cy="260" r="3.5" fill="#3a2e1e"/>
-  <circle cx="464" cy="260" r="3.5" fill="#3a2e1e"/>
-  <!-- Label -->
-  <text x="400" y="305" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#3a2e1e" opacity="0.7" transform="rotate(90,400,300)">usa comunicare</text>
+  <rect x="390" y="330" width="20" height="90" fill="#f5f0e8"/>
+  <line x1="390" y1="60" x2="390" y2="330" stroke="#3a2e1e" stroke-width="2"/>
+  <line x1="390" y1="420" x2="390" y2="520" stroke="#3a2e1e" stroke-width="2"/>
+  <line x1="410" y1="60" x2="410" y2="330" stroke="#3a2e1e" stroke-width="2"/>
+  <line x1="410" y1="420" x2="410" y2="520" stroke="#3a2e1e" stroke-width="2"/>
+  <path d="M390,330 Q330,330 330,420" fill="none" stroke="#3a2e1e" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="390" y1="330" x2="330" y2="330" stroke="#3a2e1e" stroke-width="2"/>
+  <path d="M410,330 Q470,330 470,420" fill="none" stroke="#3a2e1e" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="410" y1="330" x2="470" y2="330" stroke="#3a2e1e" stroke-width="2"/>
+  <circle cx="336" cy="335" r="3.5" fill="#3a2e1e"/>
+  <circle cx="464" cy="335" r="3.5" fill="#3a2e1e"/>
+  <text x="400" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#3a2e1e" opacity="0.7" transform="rotate(90,400,375)">usa comunicare</text>
 
-  <!-- ===== ROOM RIGHT (x: 410–740) ===== -->
-  <!-- Walls -->
-  <rect x="410" y="60" width="330" height="460" fill="none" stroke="#3a2e1e" stroke-width="4"/>
+  <!-- ===== ROOM RIGHT / CAMERA 2 (x: 410–940) ===== -->
+  <rect x="410" y="60" width="530" height="460" fill="none" stroke="#3a2e1e" stroke-width="4"/>
 
-  <!-- Floor texture right -->
-  <line x1="410" y1="120" x2="740" y2="120" stroke="#c4b89a" stroke-width="1" stroke-dasharray="5,6"/>
-  <line x1="410" y1="180" x2="740" y2="180" stroke="#c4b89a" stroke-width="1" stroke-dasharray="5,6"/>
-  <line x1="410" y1="240" x2="740" y2="240" stroke="#c4b89a" stroke-width="1" stroke-dasharray="5,6"/>
-  <line x1="410" y1="300" x2="740" y2="300" stroke="#c4b89a" stroke-width="1" stroke-dasharray="5,6"/>
-  <line x1="410" y1="360" x2="740" y2="360" stroke="#c4b89a" stroke-width="1" stroke-dasharray="5,6"/>
-  <line x1="410" y1="420" x2="740" y2="420" stroke="#c4b89a" stroke-width="1" stroke-dasharray="5,6"/>
+  <!-- Floor texture right (bedroom portion, below/right of bathroom) -->
+  <line x1="600" y1="120" x2="938" y2="120" stroke="#c4b89a" stroke-width="1" stroke-dasharray="5,6"/>
+  <line x1="410" y1="290" x2="938" y2="290" stroke="#c4b89a" stroke-width="1" stroke-dasharray="5,6"/>
+  <line x1="410" y1="360" x2="938" y2="360" stroke="#c4b89a" stroke-width="1" stroke-dasharray="5,6"/>
+  <line x1="410" y1="420" x2="938" y2="420" stroke="#c4b89a" stroke-width="1" stroke-dasharray="5,6"/>
+  <line x1="720" y1="290" x2="720" y2="518" stroke="#c4b89a" stroke-width="1" stroke-dasharray="5,6"/>
+  <line x1="600" y1="180" x2="938" y2="180" stroke="#c4b89a" stroke-width="1" stroke-dasharray="5,6"/>
 
-  <!-- Door right room — bottom wall, right side -->
-  <line x1="740" y1="60" x2="740" y2="520" stroke="#3a2e1e" stroke-width="4"/>
-  <line x1="410" y1="520" x2="570" y2="520" stroke="#3a2e1e" stroke-width="4"/>
-  <line x1="650" y1="520" x2="740" y2="520" stroke="#3a2e1e" stroke-width="4"/>
-  <path d="M650,520 Q650,440 570,440" fill="none" stroke="#3a2e1e" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <line x1="650" y1="520" x2="650" y2="440" stroke="#3a2e1e" stroke-width="2"/>
-  <circle cx="575" cy="448" r="4" fill="#3a2e1e"/>
+  <!-- Floor tiles BAIE -->
+  <line x1="412" y1="165" x2="598" y2="165" stroke="#c4b89a" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="412" y1="225" x2="598" y2="225" stroke="#c4b89a" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="505" y1="62" x2="505" y2="278" stroke="#c4b89a" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- ===== BATHROOM in Camera 2 (upper-left: x=410-600, y=60-280) ===== -->
+  <!-- Interior vertical wall -->
+  <line x1="600" y1="62" x2="600" y2="280" stroke="#3a2e1e" stroke-width="4"/>
+  <!-- Interior horizontal wall — left segment (before door gap) -->
+  <line x1="412" y1="280" x2="500" y2="280" stroke="#3a2e1e" stroke-width="4"/>
+  <!-- Interior horizontal wall — right segment (after door gap) -->
+  <line x1="600" y1="280" x2="600" y2="280" stroke="#3a2e1e" stroke-width="1"/>
+
+  <!-- Bathroom door (gap x=500-600 in horizontal wall at y=280, opens down into bedroom) -->
+  <rect x="502" y="276" width="96" height="10" fill="#f5f0e8"/>
+  <line x1="500" y1="280" x2="600" y2="280" stroke="#3a2e1e" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.35"/>
+  <path d="M600,280 A100,100 0 0,1 500,380" fill="none" stroke="#3a2e1e" stroke-width="1.8" stroke-dasharray="5,3"/>
+  <circle cx="592" cy="288" r="3.5" fill="#3a2e1e"/>
+
+  <!-- Toilet (top-left of bathroom) -->
+  <rect x="418" y="68" width="58" height="26" rx="3" fill="#e8e8e0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <ellipse cx="447" cy="130" rx="27" ry="21" fill="#e8e8e0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <ellipse cx="447" cy="130" rx="20" ry="15" fill="none" stroke="#3a2e1e" stroke-width="1" opacity="0.6"/>
+
+  <!-- Sink (bottom-right of bathroom, against vertical wall) -->
+  <rect x="506" y="228" width="88" height="48" rx="8" fill="#e8e8e0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <ellipse cx="550" cy="252" rx="20" ry="14" fill="none" stroke="#3a2e1e" stroke-width="1"/>
+  <circle cx="550" cy="252" r="3" fill="none" stroke="#3a2e1e" stroke-width="1"/>
+  <rect x="546" y="228" width="8" height="8" rx="1" fill="#c4a87a" stroke="#3a2e1e" stroke-width="1"/>
+
+  <!-- ===== BED right room (x: 620–830) ===== -->
+  <rect x="620" y="100" width="210" height="32" rx="5" fill="#c4a87a" stroke="#3a2e1e" stroke-width="2"/>
+  <line x1="645" y1="105" x2="645" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="677" y1="105" x2="677" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="709" y1="105" x2="709" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="741" y1="105" x2="741" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="773" y1="105" x2="773" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <line x1="805" y1="105" x2="805" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
+  <rect x="620" y="110" width="210" height="280" rx="6" fill="#e8dfc8" stroke="#3a2e1e" stroke-width="2.5"/>
+  <rect x="628" y="118" width="194" height="265" rx="5" fill="#f0ebe0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <path d="M628,185 Q725,176 822,185" fill="none" stroke="#3a2e1e" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="693" y1="185" x2="693" y2="378" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
+  <line x1="757" y1="185" x2="757" y2="378" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
+  <line x1="628" y1="280" x2="822" y2="280" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
+  <rect x="634" y="118" width="86" height="60" rx="8" fill="#fff9f0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <rect x="734" y="118" width="86" height="60" rx="8" fill="#fff9f0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <line x1="677" y1="122" x2="677" y2="173" stroke="#ddd0bb" stroke-width="1"/>
+  <line x1="777" y1="122" x2="777" y2="173" stroke="#ddd0bb" stroke-width="1"/>
+
+  <!-- Nightstand right of bed (against right wall) -->
+  <rect x="842" y="130" width="58" height="75" rx="4" fill="#d4c8a8" stroke="#3a2e1e" stroke-width="2"/>
+  <line x1="842" y1="167" x2="900" y2="167" stroke="#3a2e1e" stroke-width="1.5"/>
+  <circle cx="871" cy="149" r="4" fill="none" stroke="#3a2e1e" stroke-width="1.5"/>
+  <circle cx="871" cy="184" r="4" fill="none" stroke="#3a2e1e" stroke-width="1.5"/>
+  <line x1="871" y1="130" x2="871" y2="104" stroke="#3a2e1e" stroke-width="1.5"/>
+  <ellipse cx="871" cy="96" rx="22" ry="9" fill="#f5e8c0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <path d="M849,96 Q871,114 893,96" fill="#f5e8c0" stroke="#3a2e1e" stroke-width="1.5"/>
 
   <!-- Window right room — top wall -->
-  <rect x="530" y="60" width="140" height="8" fill="#ddeef5" stroke="#3a2e1e" stroke-width="2"/>
-  <line x1="600" y1="60" x2="600" y2="68" stroke="#3a2e1e" stroke-width="1.5"/>
+  <rect x="690" y="60" width="160" height="8" fill="#ddeef5" stroke="#3a2e1e" stroke-width="2"/>
+  <line x1="770" y1="60" x2="770" y2="68" stroke="#3a2e1e" stroke-width="1.5"/>
 
-  <!-- Bed right room -->
-  <rect x="505" y="110" width="200" height="280" rx="6" fill="#e8dfc8" stroke="#3a2e1e" stroke-width="2.5"/>
-  <!-- Headboard -->
-  <rect x="505" y="100" width="200" height="32" rx="5" fill="#c4a87a" stroke="#3a2e1e" stroke-width="2"/>
-  <line x1="530" y1="105" x2="530" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
-  <line x1="562" y1="105" x2="562" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
-  <line x1="594" y1="105" x2="594" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
-  <line x1="620" y1="105" x2="620" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
-  <line x1="652" y1="105" x2="652" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
-  <line x1="680" y1="105" x2="680" y2="127" stroke="#3a2e1e" stroke-width="1" opacity="0.4"/>
-  <!-- Duvet -->
-  <rect x="513" y="118" width="184" height="265" rx="5" fill="#f0ebe0" stroke="#3a2e1e" stroke-width="1.5"/>
-  <path d="M513,185 Q605,176 697,185" fill="none" stroke="#3a2e1e" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <line x1="575" y1="185" x2="575" y2="378" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
-  <line x1="637" y1="185" x2="637" y2="378" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
-  <line x1="513" y1="280" x2="697" y2="280" stroke="#c4b89a" stroke-width="1" opacity="0.6"/>
-  <!-- Pillows -->
-  <rect x="518" y="118" width="78" height="60" rx="8" fill="#fff9f0" stroke="#3a2e1e" stroke-width="1.5"/>
-  <rect x="611" y="118" width="78" height="60" rx="8" fill="#fff9f0" stroke="#3a2e1e" stroke-width="1.5"/>
-  <line x1="557" y1="122" x2="557" y2="173" stroke="#ddd0bb" stroke-width="1"/>
-  <line x1="650" y1="122" x2="650" y2="173" stroke="#ddd0bb" stroke-width="1"/>
-
-  <!-- Nightstand right room -->
-  <rect x="426" y="130" width="58" height="75" rx="4" fill="#d4c8a8" stroke="#3a2e1e" stroke-width="2"/>
-  <line x1="426" y1="167" x2="484" y2="167" stroke="#3a2e1e" stroke-width="1.5"/>
-  <circle cx="455" cy="149" r="4" fill="none" stroke="#3a2e1e" stroke-width="1.5"/>
-  <circle cx="455" cy="184" r="4" fill="none" stroke="#3a2e1e" stroke-width="1.5"/>
-  <line x1="455" y1="130" x2="455" y2="104" stroke="#3a2e1e" stroke-width="1.5"/>
-  <ellipse cx="455" cy="96" rx="22" ry="9" fill="#f5e8c0" stroke="#3a2e1e" stroke-width="1.5"/>
-  <path d="M433,96 Q455,114 477,96" fill="#f5e8c0" stroke="#3a2e1e" stroke-width="1.5"/>
+  <!-- Door right room — bottom wall -->
+  <line x1="410" y1="520" x2="700" y2="520" stroke="#3a2e1e" stroke-width="4"/>
+  <line x1="800" y1="520" x2="938" y2="520" stroke="#3a2e1e" stroke-width="4"/>
+  <path d="M800,520 Q800,440 720,440" fill="none" stroke="#3a2e1e" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="800" y1="520" x2="800" y2="440" stroke="#3a2e1e" stroke-width="2"/>
+  <circle cx="725" cy="448" r="4" fill="#3a2e1e"/>
 
   <!-- Room label right -->
-  <text x="575" y="465" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#3a2e1e" opacity="0.6" font-style="italic">Camera 2</text>
+  <text x="720" y="475" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#3a2e1e" opacity="0.6" font-style="italic">Camera 2</text>
 
-  <!-- Main label -->
-  <text x="400" y="556" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#3a2e1e" opacity="0.7" font-style="italic">Suită Familială — 2 camere comunicante — 20 m²</text>
 </svg>

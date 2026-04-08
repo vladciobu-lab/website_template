@@ -1,12 +1,18 @@
 export default function Welcome() {
   return (
-    <section className="py-24 px-6 md:px-10 max-w-7xl mx-auto">
+    <section className="relative py-24 px-6 md:px-10 overflow-hidden">
+      {/* Background image override */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/poze/image 2.JPG')" }}
+      />
+    <div className="relative z-10 max-w-7xl mx-auto">
       <div className="grid md:grid-cols-2 gap-16 items-center">
         {/* Image */}
         <div className="relative overflow-hidden rounded-[5rem]">
           <img
-            src="/poze/welcome.png"
-            alt="Casa Ciobi"
+            src="/poze/poza tati.jpeg"
+            alt="Ciobi, gazda ta"
             className="w-full h-auto object-contain"
           />
           {/* Decorative frame */}
@@ -19,7 +25,7 @@ export default function Welcome() {
             Bine ati venit
           </p>
           <h2 className="font-heading text-4xl md:text-5xl font-light leading-none text-white">
-            Eu sunt Marin, <br />
+            Eu sunt Ciobi, <br />
             <em className="text-2xl md:text-3xl font-sans italic font-light leading-none mt-1 block text-white/80">gazda ta</em>
           </h2>
           <div className="w-12 h-px bg-primary" />
@@ -31,6 +37,7 @@ export default function Welcome() {
           </p>
         </div>
       </div>
+    </div>
     </section>
   );
 }

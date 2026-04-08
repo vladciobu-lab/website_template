@@ -2,8 +2,8 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="relative py-24 px-6 md:px-10">
-      <div className="absolute inset-0 bg-black/55" />
+    <section id="contact" className="relative py-24 px-6 md:px-10" style={{ backgroundColor: "rgba(0,0,0,0.60)" }}>
+      <div className="absolute inset-0" />
       <div className="relative z-10 max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16 items-start">
           {/* Contact info */}
@@ -24,7 +24,7 @@ export default function Contact() {
                 <div>
                   <p className="text-sm font-medium text-white">Adresa</p>
                   <p className="text-sm text-white/70 mt-1">
-                    Str. Principala nr. 12, Sinaia, Prahova
+                    Str. Principala nr. 12, Satul 2 Mai, Constanta
                   </p>
                 </div>
               </div>

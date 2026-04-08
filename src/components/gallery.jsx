@@ -1,14 +1,13 @@
 const photos = [
-  { seed: "gallery-main", alt: "Terasa cu vedere panoramica", cls: "col-span-2 row-span-2" },
-  { seed: "gallery-room", alt: "Dormitor principal", cls: "" },
-  { seed: "gallery-pool", alt: "Piscina exterioara", cls: "" },
-  { seed: "gallery-nature", alt: "Imprejurimi naturale", cls: "" },
-  { seed: "gallery-kitchen", alt: "Bucatarie moderna", cls: "" },
+  { src: "/poze/image 3.JPG", alt: "Gradina cu pergola", cls: "col-span-2 row-span-2" },
+  { src: "/poze/poza fatada.jpg", alt: "Fatada Casei Ciobi", cls: "" },
+  { src: "/poze/image 1.JPG", alt: "Vedere exterior", cls: "" },
+  { src: "/poze/image 2.JPG", alt: "Gradina si zona de relaxare", cls: "" },
 ];
 
 export default function Gallery() {
   return (
-    <section id="galerie" className="py-24 bg-muted/40">
+    <section id="galerie" className="py-24" style={{ backgroundColor: "rgba(0,0,0,0.60)" }}>
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         {/* Section header */}
         <div className="text-center mb-16">
@@ -29,7 +28,7 @@ export default function Gallery() {
               className={`overflow-hidden group relative ${photo.cls}`}
             >
               <img
-                src={`https://picsum.photos/seed/${photo.seed}/800/600`}
+                src={photo.src}
                 alt={photo.alt}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />

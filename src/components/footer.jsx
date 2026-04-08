@@ -65,7 +65,7 @@ export default function Footer() {
             </h4>
             <div className="space-y-3 text-sm text-white/70">
               <p>Str. Principala nr. 12</p>
-              <p>Sinaia, Prahova</p>
+              <p>Satul 2 Mai, Constanta</p>
               <p>+40 740 000 000</p>
               <p>contact@casaciobi.ro</p>
             </div>

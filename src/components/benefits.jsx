@@ -36,17 +36,16 @@ const benefits = [
 export default function Benefits() {
   return (
     <section id="facilitati" className="relative py-24 px-6 md:px-10">
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-black/60" />
       <div className="relative z-10 max-w-7xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-16">
-          <p className="text-xs uppercase tracking-[0.3em] text-white/90 mb-4">
+          <p className="text-[19px] uppercase tracking-[0.3em] text-white/90 mb-3">
             De ce sa ne alegi
           </p>
-          <h2 className="font-heading text-4xl md:text-5xl font-light text-white">
+          <h2 className="font-heading text-[43px] md:text-[55px] font-light text-white">
             Facilitatile Noastre
           </h2>
-          <div className="w-12 h-px bg-primary mx-auto mt-6" />
         </div>
 
         {/* Grid */}
@@ -55,14 +54,14 @@ export default function Benefits() {
             const Icon = b.icon;
             return (
               <div key={b.title} className="flex flex-col items-center text-center gap-4 group cursor-default">
-                <div className="w-16 h-16 border border-white/40 flex items-center justify-center group-hover:bg-primary group-hover:border-primary transition-all duration-400">
-                  <Icon className="h-6 w-6 text-white group-hover:text-white transition-colors duration-400" />
+                <div className="w-[71px] h-[71px] border border-white/40 flex items-center justify-center group-hover:bg-primary group-hover:border-primary transition-all duration-400">
+                  <Icon className="h-[31px] w-[31px] text-white group-hover:text-white transition-colors duration-400" />
                 </div>
                 <div>
-                  <h3 className="font-heading text-base font-medium text-white mb-1.5">
+                  <h3 className="font-heading text-[23px] font-medium text-white mb-1.5">
                     {b.title}
                   </h3>
-                  <p className="text-xs text-white/70 leading-relaxed">
+                  <p className="text-[19px] text-white/70 leading-relaxed">
                     {b.desc}
                   </p>
                 </div>

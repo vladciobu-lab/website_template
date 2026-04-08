@@ -36,80 +36,68 @@ const rooms = [
 
 export default function Rooms() {
   return (
-    <section id="cazare" className="py-24 bg-muted/40">
-      <div className="max-w-7xl mx-auto px-6 md:px-10">
-        {/* Section header */}
-        <div className="text-center mb-16">
-          <h2 className="font-heading text-4xl md:text-5xl font-light text-foreground">
-            Tipuri de camere
-          </h2>
-          <div className="w-12 h-px bg-primary mx-auto mt-6" />
-        </div>
+    <section id="cazare" style={{ backgroundColor: "transparent" }}>
+      {/* Full-width 3-column grid */}
+      <div className="grid grid-cols-3 w-full">
+        {rooms.map((room) => (
+          <div key={room.id} className="flex flex-col group">
 
-        {/* Rooms grid */}
-        <div className="grid md:grid-cols-3 gap-6">
-          {rooms.map((room) => (
-            <div
-              key={room.id}
-              className="bg-white group overflow-hidden shadow-sm hover:shadow-lg transition-all duration-400"
-            >
-              {/* Image */}
-              <div className="relative aspect-[4/3] overflow-hidden">
-                <img
-                  src={room.image}
-                  alt={room.name}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                />
-                {/* Overlay on hover */}
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-400 flex items-center justify-center">
-                  <a
-                    href="#contact"
-                    className="opacity-0 group-hover:opacity-100 transition-all duration-400 translate-y-2 group-hover:translate-y-0 bg-white text-foreground text-xs uppercase tracking-widest px-6 py-3 flex items-center gap-2 font-medium hover:bg-primary hover:text-white"
-                  >
-                    Rezerva <ArrowRight className="h-3.5 w-3.5" />
-                  </a>
-                </div>
-              </div>
-
-              {/* Info */}
-              <div className="p-6 space-y-4">
-                <div className="flex items-center gap-4 text-xs text-muted-foreground">
-                  <span className="flex items-center gap-1.5">
-                    <Users className="h-3.5 w-3.5" />
-                    {room.guests} persoane
-                  </span>
-                  <span className="flex items-center gap-1.5">
-                    <Maximize2 className="h-3.5 w-3.5" />
-                    {room.sqm} m²
-                  </span>
-                </div>
-
-                <h3 className="font-heading text-xl font-medium text-foreground">
+            {/* Title strip above image */}
+            <div className="flex items-center justify-center" style={{ backgroundColor: "rgba(0,0,0,0.60)" }}>
+              <Link href={room.href} className="flex items-center gap-3 px-6 py-3 hover:opacity-80 transition-opacity">
+                <h3 className="font-heading text-[30px] font-medium text-white leading-tight">
                   {room.name}
                 </h3>
-
-                <ul className="space-y-2">
-                  {room.features.map((f) => (
-                    <li key={f} className="text-sm text-muted-foreground flex items-center gap-2.5">
-                      <span className="w-1 h-1 rounded-full bg-primary flex-shrink-0" />
-                      {f}
-                    </li>
-                  ))}
-                </ul>
-
-                <div className="pt-4 border-t border-border flex items-center justify-between">
-                  <span className="text-xs text-muted-foreground">{room.price}</span>
-                  <Link
-                    href={room.href}
-                    className="text-xs uppercase tracking-widest text-primary border-b border-primary pb-0.5 hover:text-foreground hover:border-foreground transition-colors duration-300"
-                  >
-                    Detalii
-                  </Link>
+                <div className="flex items-center gap-2 text-[18px] text-white/70">
+                  <span className="flex items-center gap-1">
+                    <Users className="h-4 w-4" />
+                    {room.guests}
+                  </span>
+                  <span className="flex items-center gap-1">
+                    <Maximize2 className="h-4 w-4" />
+                    {room.sqm}m²
+                  </span>
                 </div>
+              </Link>
+            </div>
+
+            {/* Image area — description overlaid at bottom */}
+            <Link href={room.href} className="relative overflow-hidden cursor-pointer" style={{ backgroundColor: "rgba(0,0,0,0.60)", aspectRatio: "5/3", display: "block" }}>
+              <div
+                className="w-full h-full transition-transform duration-700 group-hover:scale-105"
+                style={{
+                  backgroundImage: `url('${room.image}')`,
+                  backgroundSize: "100% 100%",
+                  backgroundRepeat: "no-repeat",
+                }}
+              />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <Link
+                  href={room.href}
+                  className="bg-primary text-white text-xs uppercase tracking-widest px-6 py-2 font-medium hover:bg-white hover:text-foreground transition-colors duration-300"
+                >
+                  Detalii
+                </Link>
+              </div>
+            </Link>
+
+            {/* Description strip — below image, elevated with shadow */}
+            <div className="relative z-10 px-6 py-5 flex flex-col items-center text-center" style={{ backgroundColor: "rgba(0,0,0,0.60)" }}>
+              <ul className="space-y-0.5 mb-3">
+                {room.features.map((f) => (
+                  <li key={f} className="text-[18px] text-white/80 flex items-center gap-2">
+                    <span className="w-1 h-1 rounded-full bg-primary flex-shrink-0" />
+                    {f}
+                  </li>
+                ))}
+              </ul>
+              <div className="pt-2 w-full flex items-center justify-center">
+                <span className="text-[18px] text-white/70 leading-tight">{room.price}</span>
               </div>
             </div>
-          ))}
-        </div>
+
+          </div>
+        ))}
       </div>
     </section>
   );

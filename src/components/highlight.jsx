@@ -19,12 +19,16 @@ export default function Highlight() {
         </div>
       </div>
 
-      {/* Dreapta - harta */}
+      {/* Dreapta - harta Google Maps */}
       <div className="flex-1 bg-black/60 flex items-center justify-center">
-        <img
-          src="/harta-plaja-v3.png"
-          alt="Harta Casa Ciobi - distanta pana la plaja"
-          className="w-[70%] object-contain rounded-[3rem]"
+        <iframe
+          src="https://maps.google.com/maps?saddr=Casa+Ciobi,+2+Mai,+Constanta,+Romania&daddr=43.783900,28.580383&dirflg=w&output=embed"
+          className="w-[70%] h-[70%] rounded-[3rem]"
+          style={{ border: 0, minHeight: "320px" }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          title="Traseu Casa Ciobi - Plaja"
         />
       </div>
     </section>

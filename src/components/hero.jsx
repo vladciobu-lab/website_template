@@ -9,7 +9,7 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "url('/poze/poza fundal prima pagina.jpg')",
+            "url('/poze/poza fatada.jpg')",
         }}
       />
 
